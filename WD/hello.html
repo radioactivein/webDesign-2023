@@ -34,7 +34,35 @@
 
 }
 
+.navclass{
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4d79ff;
+	border-radius: 10px;
+	width: 100%;
+	
+}
+.navclass li{
+	float: left;
+}
+.navclass li:hover{
+	background-color:#002080;
+}
 
+.navclass a{
+	display: block;
+	color: white;
+	height: 100%;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.navclass a:hover{
+	color:aliceblue;
+}
 
 .mhead{
 	align-items: center;
@@ -58,7 +86,9 @@ background-color: #ccd9ff;
 	margin:auto;
 	margin-bottom:20px;
 	width:90%;
-	background-color:  #99b3ff;
+	/* background-color:  #99b3ff; */
+	border-color: #4d79ff;
+	border-style: solid;
 	font-family:arial;
 	padding:10px;
 	border-radius:10px 10px 10px 10px;
@@ -137,7 +167,7 @@ td{
 button{
 	background-color:darkblue;
 	color:white;
-	border-radius=20px;
+	border-radius:20px;
 
 }
 
@@ -193,19 +223,46 @@ font-size:20px;
 
 <body>
 
-
-
-
-
-
-
-
 <div class="mhead">
-<h1 style="text-align: center;"><span style="color: #002080;">Html 5 </span>Basics</h1>
+		<h1 style="text-align: center;"><span style="color: #002080;">Html 5 </span>Basics</h1>
 </div>
 
+
 <div class="forms">
-	
+	<h2>nav menu using <u>Lists</u></h2>
+
+	<ul class="navclass">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#Projects">Proejects</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#Other">Other</a></li>
+	</ul>
+</div>
+
+
+<script>
+	function hos(v)
+{
+	var vlue;
+	if (v == 0){
+		vlue="img/collage.png";
+	}else{
+		vlue="img/cd.png";
+	}
+	document.getElementsById('cl').src=vlue;
+}
+</script>
+
+<div class="forms">
+	<img src="img/hotel.jpg" width="50px" height="50px" id="cl">
+	<button type="button" onclick="hos(0)">on</button>
+	<button type="button" onclick="hos(1)">off</button>
+</div>
+
+
+<div class="forms">
+		<h2>Image <u>alignments</u></h2><br><br>	
 		<img src="img/hotel.jpg" alt="hotel">
 	
 		<img src="imgs/hotel.jpg" alt="hotel">
@@ -260,7 +317,7 @@ font-size:20px;
 
 <h3>Numbered</h3>
 
-<ol>
+<ol type="A">
 <li>name</li>
 <li>class</li>
 <li>division</li>
@@ -270,7 +327,7 @@ font-size:20px;
 
 <h3>Bullets</h3>
 
-<ul>
+<ul style="list-style-type:square;">
 <li>name</li>
 <li>class</li>
 <li>division</li>
@@ -345,7 +402,7 @@ Education qualification<br>
 
 <input type="submit" id="sbt">
 <input type="reset" id="cbt">
-<button type="button" form="mainform" style="background-color:lightblue; color:red; title="your choice";>Don't click me</button>
+<button type="button" form="mainform" style="background-color:bisque; border-color:aliceblue; color:#002080;" title="your choice;">Don't click me</button>
 
 </form>
 </div>
@@ -353,7 +410,7 @@ Education qualification<br>
 
 <div class="forms">
 
-<h2 style="margin-bottom:10px;"><u>links</u></h2>
+<h2 ><u>links</u></h2><br>
 
 <table id="tables" title="random names">
 
@@ -430,9 +487,9 @@ in the coast
 
 <div class="blocks">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WWMfLfhZqxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="htt://www.youtube.com/embed/WWMfLfhZqxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WWMfLfhZqxc?autoplay=0&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="htt://www.youtube.com/embed/WWMfLfhZqxc?autoplay=0&mute=1;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 </div>
@@ -440,18 +497,18 @@ in the coast
 
 
 <div class="blocks">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/WWMfLfhZqxc?playlist=WWMfLfhZqxc&loop=1;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>	</iframe>
+	<iframe width="560" height="315" src="htt://www.youtube.com/embed/WWMfLfhZqxc?playlist=WWMfLfhZqxc&loop=1;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>	</iframe>
 </div>
 
 
 <div class="blocks">
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/WWMfLfhZqxc?controls=0;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="ht://www.youtube.com/embed/WWMfLfhZqxc?controls=0;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </div>
 
 
-	<iframe width="100%" height="500" src="https://www.youtube.com/embed/WWMfLfhZqxc?controls=0;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="100%" height="500" src="ht://www.youtube.com/embed/WWMfLfhZqxc?controls=0;" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </div>
 
