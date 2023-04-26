@@ -5,23 +5,31 @@ body{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: none;
-    color: black;
+    color: rgb(66, 101, 137);
 }
 a{
     text-decoration: none;
-    color: rgb(47, 45, 45);
+    color: rgb(66, 101, 137);
 }
 p{
     padding-bottom: 30px;
     margin: 0;
     font-size: 17px;
     text-align: center;
+    color: rgba(66, 101, 137, 0.751);
 }
+
 h2{
     margin: 0px;
-    padding: 0px 0px;
+    padding: 0px 0px 10px 0px;
     text-align: center;
+    font-size: 40px;
 
+}
+h5{
+    padding-bottom: 15px;
+    margin: 0px;
+    font-size:x-large
 }
 .container{
     margin: 0 auto;
@@ -31,9 +39,10 @@ h2{
 
 .center-content{
     text-align: center;
-    width: 100%;
-    top: 40%;
-    left: 47%;
+    max-width:1200px;
+    margin:0 auto;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
 
@@ -41,9 +50,14 @@ h2{
     font-size: 40px;
     padding-bottom: 5px;
     font-weight: bold;
+    color: white;
 }
+.h2-p{
+    color: rgb(229, 225, 225);
+}
+
 .header1{
-    background-color: rgb(224, 226, 236);
+    background-color: rgb(241, 242, 243);
     padding:6px 0px;
     box-shadow: 0px 5px rgb(82, 82, 82);
 }
@@ -58,6 +72,10 @@ h2{
     font-size: xx-large;
 }
 
+.header-padding{
+    padding: 50px 0px;
+}
+
 .hi{
     background-image: url(../img/carousel1.jpg);
     width: 100%;
@@ -66,9 +84,35 @@ h2{
 .width100{
     width: 100%;
 }
+.width33{
+    width: 33.33%;
+}
 .height100{
     height: 100%;
 }
+.width30{
+    width: 20%;
+ }
+ .width60{
+    width: 70%;
+ }
+ .width25{
+    width:25%;
+ }
+ .width10{
+    width: 10%;
+ }
+
+ .padding15{
+    padding:15px;
+ }
+ .bottompadding{
+    padding-bottom: 20px;
+ }
+
+ .padding25{
+    padding: 50px 10px 20px 20px;
+ }
 
 
 .ul1{
@@ -82,14 +126,16 @@ h2{
 
 .button1{
     width: 120px;
-    padding:5px 10px;
-    color: rgb(46, 94, 4);
-    background-color: greenyellow;
+    padding:10px 15px;
+    color: rgb(5, 101, 34);
+    background-color: rgb(41, 234, 125);
     font-size: 18px;
+    border-radius: 6px;
+    border:solid 2px white;
 }
 .button1:hover{
-    color: greenyellow;
-    background-color: rgb(46, 94, 4);
+    color: rgb(41, 234, 125);
+    background-color: rgb(5, 101, 34);
 }
 
 /* .left-list{
@@ -122,7 +168,6 @@ h2{
 
 .absolute{
     position: absolute;
-    margin: 50px;
 }
 .relative{
     position: relative;
@@ -174,12 +219,44 @@ h2{
 .search:hover{
     background-color: red;
 }
- .width30{
-    width: 20%;
+
+
+ .inline-flex{
+    display: inline-flex;
  }
- .width60{
-    width: 70%;
+
+
+.cards{
+    padding-bottom: 50px;
+}
+
+.toppad20{
+    padding-top: 20px;
+}
+
+ .card3{
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
  }
- .width10{
-    width: 10%;
+
+ .card3 img{
+    padding-right: 5px;
+ }
+.carddata{
+    border: solid 2px rgb(125, 121, 121);
+    margin-top: -3px;
+    border-radius: 2px;
+    padding: 0px 0px 0px 0px;
+}
+.carddata p{
+    padding-top: 5px;
+}
+
+ 
+ .works{
+    background-color: rgb(241, 242, 243);
+ }
+
+ .footer{
+    background-color: rgb(34, 56, 93);
  }
