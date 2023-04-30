@@ -41,7 +41,7 @@ a:hover{
 }
 
 .header2{
-    padding: 10px 0px;
+    padding: 25px 0px;
     background-color: aliceblue;
 
 }
@@ -98,13 +98,11 @@ a:hover{
 
 
 .headericon{
-    width: 20px;
-    height: 25px;
+    height: 15px;
 }
 
 .icons{
-    width: 20px;
-    height: 20px;
+    height: 13px;
     padding-left: 10px;
 }
 
@@ -112,23 +110,31 @@ a:hover{
     color: rgb(236, 236, 1);
     background-color: black;
     border-radius: 4px;
-    padding: 10px 18px;
+    padding: 10px 25px;
     margin-top: -10px;
+    border: none;
+}
+.button2{
+    background-color: rgb(236, 236, 1);
+    color: black;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
 }
 
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
 }
 
 
 
 .contact-li{
-    padding-right: 8px;
+    padding-right: 20px;
 }
 
 .contact-li p{
-    vertical-align: middle;
+  margin: auto 0;
 
 }
 
