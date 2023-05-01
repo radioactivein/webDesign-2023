@@ -10,20 +10,16 @@ ul{
     padding: 0;
     margin: 0;
 }
-h3{
+h1, h2, h3, h4, h5, h6{
     padding: 0;
     margin: 0;
 }
 
-.ul1{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-}
+
 p{
-    padding: 0;
+    padding: 5px 0;
     margin: 0;
+    font-size: 12px;
 }
 a{
     text-decoration: none;
@@ -34,8 +30,17 @@ a:hover{
 }
 
 
+
+
+
+
+
+
+
+
 .header1{
-    padding:20px 0px;
+    padding:15px 0px;
+    margin: auto 0;
     background-color: rgb(235, 235, 235);
 }
 
@@ -45,15 +50,23 @@ a:hover{
 }
 
 .header2{
-    padding: 35px 0px;
+    padding: 30px 0px;
     background-color: rgb(255, 255, 255);
 
 }
 
 .nav{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.782);
     color: white;
     padding: 23px 0px;
+}
+
+.carousal{
+    background-image: url(../img/citymetal.jpg);
+    background-size:cover;
+    background-position: center;
+    float: left;
+    width: 100%;
 }
 
 
@@ -104,12 +117,16 @@ a:hover{
     height: 600px;
 }
 
+.height500{
+    height: 500px;
+}
+
 .height100{
     height: 100%;
 }
 
 .paddingright10{
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 .textright{
@@ -119,8 +136,17 @@ a:hover{
     text-align: left;
 }
 
+.clr{
+    color: rgb(140, 142, 143);
+}
 
+.overflow{
+    text-overflow: hidden;
+}
 
+.white{
+    color: white;
+}
 
 
 
@@ -128,9 +154,18 @@ a:hover{
     height: 15px;
 }
 
+
+
 .icons{
     height: 13px;
     padding-left: 10px;
+}
+
+.tick-icon{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+    padding-top: 5px;
 }
 
 .button1{
@@ -138,7 +173,6 @@ a:hover{
     background-color: black;
     border-radius: 4px;
     padding: 10px 30px;
-    margin-top: -10px;
     border: none;
 }
 .button2{
@@ -154,13 +188,24 @@ a:hover{
     height: 50px;
 }
 
+.header2title{
+    font-family:"Hind",sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight:600;
+    padding: 0;
+}
+
+
+
 
 
 .nav a{
     color: white;
     padding-right: 33px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Hind',sans-serif;
 }
 
 
@@ -181,6 +226,10 @@ a:hover{
 
 .brand-li{
 
+}
+
+.title1{
+    margin: auto 0;
 }
 
 
