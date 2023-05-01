@@ -89,9 +89,9 @@ a:hover{
     text-align: center; */
     text-align: left;
     padding-left: 50px;
-    padding-right: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-right: 28%;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 
@@ -235,6 +235,7 @@ a:hover{
 
 .maincontent-p{
     font-size: 18px;
+    line-height: 1.6;
 }
 
 
