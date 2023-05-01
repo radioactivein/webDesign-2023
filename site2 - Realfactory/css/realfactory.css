@@ -70,14 +70,6 @@ a:hover{
     width: 100%;
 }
 
-
-.maincontent{
-    background-color: aliceblue;
-    height: 100%;
-    justify-content: center;
-    text-align: center;
-}
-
 .center-content{
     position: absolute;
     margin: 0 auto;
@@ -85,6 +77,21 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+
+.maincontent{
+    /* background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -129,6 +136,10 @@ a:hover{
     height: 600px;
 }
 
+.picheight{
+    height: 250vh;
+}
+
 .height500{
     height: 500px;
 }
@@ -164,6 +175,11 @@ a:hover{
 }
 
 
+.rightborder{
+    border-right: solid 2px rgba(188, 189, 189, 0.681);
+}
+
+
 
 .headericon{
     height: 15px;
@@ -181,6 +197,7 @@ a:hover{
     height: 15px;
     padding-right: 5px;
     padding-top: 5px;
+    padding-left: 15px;
 }
 
 .button1{
@@ -209,6 +226,15 @@ a:hover{
     color: black;
     font-weight:600;
     padding: 0;
+}
+
+.maincontent-title{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.maincontent-p{
+    font-size: 18px;
 }
 
 
