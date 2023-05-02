@@ -32,12 +32,6 @@ a:hover{
 
 
 
-
-
-
-
-
-
 .header1{
     padding:15px 0px;
     margin: auto 0;
@@ -80,7 +74,7 @@ a:hover{
 }
 
 
-.maincontent{
+.rightcontent{
     /* background-color: aliceblue;
     height: 100vh;
     display: flex;
@@ -110,6 +104,9 @@ a:hover{
     display: inline-flex;
 }
 
+.width60{
+    width: 60%;
+}
 .width50{
     width: 50%;
 }
@@ -150,6 +147,11 @@ a:hover{
 
 .paddingright10{
     padding-right: 20px;
+}
+
+.paddingright50{
+    padding-right: 100px;
+    padding-top: 20px;
 }
 
 .textright{
@@ -228,16 +230,20 @@ a:hover{
     padding: 0;
 }
 
-.maincontent-title{
+.rightcontent-title{
     font-size: 35px;
     padding-bottom: 20px;
 }
 
-.maincontent-p{
-    font-size: 18px;
+.rightcontent-p{
+    font-size: 16px;
     line-height: 1.6;
 }
-
+ .rightcontent-li{
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(140, 142, 143);
+ }
 
 
 

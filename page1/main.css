@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(216, 216, 247);
+}
+
+a{
+    color: blue;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+
+li{
+    padding: 10px 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.float-left{
+    float: left;
+}
+
+.width100{
+    width: 100%;
+}
+
+.width33{
+    width: 33.33%;
+}
+.width50{
+    width: 50%;
+}
+
+.content1{
+    padding: 30px 0;
+}
+
+.content2{
+    padding-bottom: 30px;
+}
+
+.content3{
+    
+}
+
+.pic{
+    border-radius: 8px;
+}
+
+
+.centertext{
+    text-align: center;
+}
+
+.cards{
+    border-radius: 5px;
+    background-color: white;
+    border: solid 1px rgb(222, 210, 210); 
+    padding: 30px 30px;    
+}
+.padding15{
+    padding: 15px;
+}
+
+
+
+
