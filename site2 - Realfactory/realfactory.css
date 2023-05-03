@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
+h5{
+    font-weight: normal;
+}
+
+
 
 p{
     padding: 5px 0;
@@ -64,6 +69,16 @@ a:hover{
     width: 100%;
 }
 
+.carousal2{
+    background-image: url(img/night.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .center-content{
     position: absolute;
     margin: 0 auto;
@@ -73,6 +88,20 @@ a:hover{
     transform: translate(-50%,-50%);
 }
 
+.mainpic{
+    background-image: url(img/morning\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main{
+    background-color: rgb(255, 255, 255);
+}
+
+.clr2{
+    background-color: rgb(235, 235, 235);
+}
 
 .rightcontent{
     /* background-color: aliceblue;
@@ -87,9 +116,30 @@ a:hover{
     padding-top: 90px;
     padding-bottom: 80px;
 }
+.lefttcontent{
+    text-align: left;
+    padding-right: 80px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.rightcontent2{
+    /* background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    text-align: left;
+    padding-left: 10px;
+    
+    padding-bottom: 10px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
 
 .subcontent{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 16px;
 }
 
@@ -137,7 +187,7 @@ a:hover{
 }
 
 .height250{
-    height: 600px;
+    height: 550px;
 }
 
 .picheight{
@@ -340,5 +390,26 @@ a:hover{
     height: 60px;
 }
 
+.progress{
+    margin-top: 38px;
+}
+
+progress{
+    width: 100%;
+}
+
+progress::-webkit-progress-bar{
+    background-color: rgb(245, 24, 24);
+}
+
+progress::-webkit-progress-value{
+    background-color: rgb(234, 192, 65);
+    color: rgb(234, 192, 65);
+}
+
+.prog-name{
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
+}
 
 
