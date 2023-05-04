@@ -28,7 +28,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(36, 36, 36)
 }
 a:hover{
     color: rgb(9, 198, 9);
@@ -179,6 +179,12 @@ a:hover{
     font-weight:lighter;
 }
 
+.footer-section{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding:80px 0;
+    font-size: 15px;
+}
 
 
 
@@ -237,6 +243,10 @@ a:hover{
     height: 100%;
 }
 
+.padding100{
+    padding: 0 450px;
+}
+
 .paddingright10{
     padding-right: 20px;
 }
@@ -246,6 +256,9 @@ a:hover{
     padding-top: 20px;
 }
 
+.padding50{
+    padding:50px 20px
+}
 .textright{
     text-align: right;
 }
@@ -261,6 +274,10 @@ a:hover{
     font-size: 45px;
 }
 
+.margin-bottom{
+    padding-top: 80px;
+}
+
 .clr{
     color: rgb(140, 142, 143);
 }
@@ -272,12 +289,20 @@ a:hover{
     text-overflow: hidden;
 }
 
+.font15{
+    font-size: 14px;
+}
+
 .white{
     color: white;
 }
 
 .black{
     background-color: black;
+}
+
+.yellow{
+    color: rgb(234, 192, 65);
 }
 
 .rightborder{
@@ -347,7 +372,7 @@ a:hover{
 .header2title{
     font-family:"Hind",sans-serif;
     font-size: 16px;
-    color: black;
+    color: rgb(36, 36, 36);
     font-weight:600;
     padding: 0;
 }
@@ -367,8 +392,26 @@ a:hover{
     color: rgb(140, 142, 143);
  }
 
+.carousal-title{
+    padding-top: 150px;
+    font-size: 56px;
+}
 
+.carousal-data{
+    font-size: 15px;
+    color: rgba(204, 204, 204, 0.829);
+    padding-bottom: 50px;
+}
 
+.carousal-title2{
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.carousal-data2{
+    font-size: 15px;
+    color: rgb(234, 192, 65);
+}
 
 .nav a{
     color: white;
@@ -455,4 +498,17 @@ progress::-webkit-progress-value{
     letter-spacing: 1.5px;
 }
 
+.footer-1{
+    padding-left: 15px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
 
+.r-border{
+    border-right: solid 1px rgb(69, 69, 69);
+}
+
+.footer-1 p{
+    line-height: 1.6;
+    padding-top: 0;
+}
