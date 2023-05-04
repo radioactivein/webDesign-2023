@@ -76,7 +76,6 @@ a:hover{
     position: relative;
     float: left;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .center-content{
@@ -143,6 +142,42 @@ a:hover{
     font-size: 16px;
 }
 
+.cards-section{
+    background-color: rgb(235, 235, 235);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.card-content{
+    background-color: rgb(255, 255, 255);
+}
+
+.card-title{
+    padding-top: 35px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    
+}
+
+.card-data{
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(162, 162, 162);
+    font-weight:lighter;
+}
 
 
 
@@ -216,6 +251,14 @@ a:hover{
 }
 .textleft{
     text-align: left;
+}
+.textcenter{
+    text-align: center;
+}
+.headercards{
+    padding-top:30px;
+    padding-bottom: 60px;
+    font-size: 45px;
 }
 
 .clr{
