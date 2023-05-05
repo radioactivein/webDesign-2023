@@ -48,6 +48,11 @@ a:hover{
     max-width: 1100px;
 }
 
+.content-wrapper{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 .header2{
     padding: 30px 0px;
     background-color: rgb(255, 255, 255);
@@ -55,13 +60,20 @@ a:hover{
 }
 
 .nav{
-    background-color: rgba(0, 0, 0, 0.782);
+    background-color: rgba(0, 0, 0, 0.645);
     color: white;
     padding: 23px 0px;
 }
+.nav-icon{
+    height: 20px;
+    width:  20px;
+}
+.width20 a{
+    margin-left: 10px;
+}
 
 .carousal{
-    background-image: url(img/citymetal.jpg);
+    background-image: url(img/night-dark.jpg);
     background-size:cover;
     background-position: center;
     position: relative;
@@ -69,8 +81,15 @@ a:hover{
     width: 100%;
 }
 
+.carousal-title0{
+    padding-top:40px;
+    font-size: 56px;
+    padding-bottom: 25px;
+
+}
+
 .carousal2{
-    background-image: url(img/night.jpg);
+    background-image: url(img/night-dark.jpg);
     background-size:cover;
     background-position: center;
     position: relative;
@@ -155,29 +174,6 @@ a:hover{
     padding-bottom: 10px;
 }
 
-.card-content{
-    background-color: rgb(255, 255, 255);
-}
-
-.card-title{
-    padding-top: 35px;
-    padding-bottom: 8px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: normal;
-    letter-spacing: 1.5px;
-    
-}
-
-.card-data{
-    padding-bottom: 25px;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 12px;
-    font-style: italic;
-    color: rgb(162, 162, 162);
-    font-weight:lighter;
-}
 
 .footer-section{
     background-color: rgb(36, 36, 36);
@@ -269,13 +265,12 @@ a:hover{
     text-align: center;
 }
 .headercards{
-    padding-top:30px;
     padding-bottom: 60px;
     font-size: 45px;
 }
 
-.margin-bottom{
-    padding-top: 80px;
+.padding-top60{
+    padding-top: 60px;
 }
 
 .clr{
@@ -343,12 +338,22 @@ a:hover{
     padding: 10px 30px;
     border: none;
 }
+.button1:hover{
+    color: black;
+    background-color: rgb(234, 192, 65);
+}
+
 .button2{
     background-color: rgb(234, 192, 65);
     color: black;
     border-radius: 4px;
     padding: 16px 40px;
     border: none;
+}
+
+.button2:hover{
+    background-color: black;
+    color: rgb(234, 192, 65);
 }
 
 .button3{
@@ -393,7 +398,7 @@ a:hover{
  }
 
 .carousal-title{
-    padding-top: 150px;
+    padding-top: 100px;
     font-size: 56px;
 }
 
@@ -401,11 +406,12 @@ a:hover{
     font-size: 15px;
     color: rgba(204, 204, 204, 0.829);
     padding-bottom: 50px;
+    line-height: 1.6;
 }
 
 .carousal-title2{
     font-size: 45px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .carousal-data2{
@@ -413,7 +419,7 @@ a:hover{
     color: rgb(234, 192, 65);
 }
 
-.nav a{
+.nav-a{
     color: white;
     padding-right: 33px;
     font-size: 14px;
@@ -482,15 +488,21 @@ a:hover{
 
 progress{
     width: 100%;
+    background-color: yellow;
+    border: solid 1px rgb(227, 227, 227);
+    border-radius: 50px;
+    height: 8px;
 }
 
 progress::-webkit-progress-bar{
-    background-color: rgb(245, 24, 24);
+    background-color: rgb(227, 227, 227);
+    border-radius: 50px;
 }
 
 progress::-webkit-progress-value{
     background-color: rgb(234, 192, 65);
     color: rgb(234, 192, 65);
+    border-radius: 50px;
 }
 
 .prog-name{
@@ -498,10 +510,57 @@ progress::-webkit-progress-value{
     letter-spacing: 1.5px;
 }
 
+
+.card-content{
+    background-color: rgb(255, 255, 255);
+}
+
+.card-img:hover{
+        
+}
+
+.card-title{
+    padding-top: 35px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    
+}
+
+.card-data{
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(162, 162, 162);
+    font-weight:lighter;
+}
+
+
+
+
+
 .footer-1{
     padding-left: 15px;
     margin-right: 10px;
     padding-bottom: 50px;
+    height: 160px;
+    letter-spacing: 0.5px;
+}
+
+.footers{
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+    height: 160px;
+    letter-spacing: 0px;
+}
+
+.footer-img{
+    padding-bottom: 10px;
 }
 
 .r-border{
@@ -511,4 +570,37 @@ progress::-webkit-progress-value{
 .footer-1 p{
     line-height: 1.6;
     padding-top: 0;
+}
+
+.f-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.f-icon{
+    width: 25px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.footr-li{
+    padding-top: 10px;
+}
+
+.footr-li-cntct{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(27, 27, 27);
+    color: rgb(140, 142, 143);
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1.6px;
+}
+
+.footer-wrapper{
+   padding: 35px 0;
 }
