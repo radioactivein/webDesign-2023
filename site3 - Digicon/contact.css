@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #858585;
+    font-family: 'Lato', sans-serif;
+}
+
+
+colgroup{
+    color: #ff6984;
+    color: #858585;
+    color: #172182;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    
+}
+
+
+
+
+.textright{
+    text-align: right;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+
+
+
+
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-dir{
+    flex-direction: row;
+}
+
+
+
+
+.padding10{
+    padding: 10px;
+}
+.width10{
+    width: 10%;
+}
+
+.width33{
+    width: 33.33%;
+}
+
+.width100{
+    width: 100%;
+}
+
+.width40{
+    width: 40%;
+}
+
+.width30{
+    width: 30%;
+}
+
+.width50{
+    width: 50%;
+}
+.width80{
+    width: 80%;
+}
+
+.width60{
+    width: 60%;
+}
+
+.width20{
+    width: 20%;
+}
+
+.width25{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    max-width:1100px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content-wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.header{
+    padding-top:    10px;
+    padding-bottom: 10px;
+    /* background-color: #172182; */
+
+}
+
+.h-logo{
+   display: inline-block;
+   padding-top: 10px; 
+
+}
+
+.h-ul{
+    margin-left: auto !important;
+}
+
+/* .h-li{
+    padding-left: 50px;
+    padding-right: 5px;
+} */
+
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+}
+
+.nav{
+    text-align: right;
+    
+}
+
+.buttons1{
+    padding-right: 15px;
+}
+
+.button2{
+    color: white;
+    background-color: #ff6984;
+    padding:13px 20px;
+    border-radius: 5px;
+    margin-top: -8px;
+    
+}
+
+.button1{
+    color: black;
+    padding:13px 20px;
+    border: solid 1px #ff6984;
+    border-radius: 5px;
+    margin-top: -8px;
+    
+}
+
+
+.main{
+    background-color: #eee;
+}
+
+.cards{
+    padding: 0 15px;
+}
+
+.contact-info{
+    padding: 30px;
+    margin: 0 10px;
+
+}
+
+
+.contact-info-img{
+    display:inline-block;
+    background-color: #eee;
+    border-radius: 100%;
+    padding: 30px;
+    width:  50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgss{
+    padding-top: 10px;
+}
+
+.imgs2{
+    padding-bottom: -30px;
+}
