@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color: #858585;
+    color: #000000;
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,6 +24,12 @@ ul{
     list-style: none;
     padding: 0;
     
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    color: #858585;
 }
 
 
@@ -244,9 +250,49 @@ ul{
 .iframe{
     height: 650px;
     float: right;
+    border-radius: 0 10px 10px 0;
 }
 
-.contact-form{
+.form-wrap{
     background-color: #eee;
     margin-bottom: 60px;
+    border: solid 2px rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.form{
+    padding: 30px 20px;
+
+}
+
+form{
+    padding-top:15px ;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.frm-txt{
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    margin-right: 5px ;
+    background-color: #ffffff;
+    border: solid 0.1rem rgb(217, 217, 217);
+    border-radius: 5px;
+}
+
+.btn-1{
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #172182;
+    color: white;
+    border: solid 0.1rem #eee;
+}
+
+.btn-1:hover{
+    background-color: #ff6984;
+    color: #172182;
+    cursor: pointer;
 }
