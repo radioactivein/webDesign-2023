@@ -202,21 +202,37 @@ ul{
 }
 
 
-.contact-info-img{
+.cntct-info-img-bg{
     display:inline-block;
     background-color: #eee;
     border-radius: 100%;
     padding: 30px;
     width:  50px;
     height: 50px;
-    text-align: center;
-    justify-content: center;
 }
 
-.imgss{
-    padding-top: 10px;
+
+
+.crd-img1{
+    background-image: url(img/web/mail.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
 }
 
-.imgs2{
-    padding-bottom: -30px;
+.crd-img2{
+    background-image: url(img/web/mobile.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.crd-img3{
+    background-image: url(img/web/map.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
 }
