@@ -127,8 +127,11 @@ ul{
 }
 
 .content-wrapper{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .header{
@@ -235,4 +238,15 @@ ul{
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
+}
+
+
+.iframe{
+    height: 650px;
+    float: right;
+}
+
+.contact-form{
+    background-color: #eee;
+    margin-bottom: 60px;
 }
