@@ -1,0 +1,50 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Foldit', cursive;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif; */
+    color: red;
+}
+
+.title{
+    font-size: 150px;
+    font-weight: 700;
+}
+p{
+    padding: 15px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    width:inherit;
+    display: block;
+}
+.title-span{
+    font-weight: 300;
+    text-shadow: ;
+}
+
+.sb-title{
+    font-size: 30px;
+}
+
+
+.textcenter{
+    text-align: center;
+}
+
+.textleft{
+    text-align: center;
+}
+
+.textright{
+    text-align: right;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.width100{
+    width: 100%;
+}
