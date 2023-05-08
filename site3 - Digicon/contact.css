@@ -32,6 +32,10 @@ p{
     color: #858585;
 }
 
+.bold{
+font-weight: bold;
+}
+
 
 
 
@@ -172,6 +176,7 @@ p{
     display: block;
     padding: 0.5rem 1rem;
     font-weight: bolder;
+    text-align: right;
 }
 
 .nav{
@@ -187,6 +192,7 @@ p{
     color: white;
     background-color: #ff6984;
     padding:13px 20px;
+    border: solid 1px #ff6984;
     border-radius: 5px;
     margin-top: -8px;
     
@@ -194,8 +200,9 @@ p{
 
 .button1{
     color: black;
-    padding:13px 20px;
+    padding:13px 18px;
     border: solid 1px #ff6984;
+    font-size: 14px;
     border-radius: 5px;
     margin-top: -8px;
     
@@ -206,8 +213,19 @@ p{
     background-color: #eee;
 }
 
+.hero-h{
+    font-weight: bolder; 
+    font-size:50px; 
+    margin-top: 10px;
+}
+
+
 .cards{
     padding: 0 15px;
+}
+
+.cards h3{
+    color: #858585;
 }
 
 .contact-info{
@@ -261,7 +279,7 @@ p{
 
 .form-wrap{
     background-color: #f7f7f7;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     border: solid 2px rgb(238, 238, 238);
     border-radius: 10px;
 }
@@ -311,8 +329,16 @@ form{
 
 .footer{
     background-color: #0f196f;
-    color: white;
-    padding-bottom: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.footer p{
+    color: #eee;
+    padding-bottom: 15px;
+}
+
+.footer a{
+    color: #f7f7f7;
 }
 
 .f-cols{
@@ -352,10 +378,37 @@ form{
     display: inline-block;
 }
 
+.ftr-inpt{
+    width: 100%;
+    height: 30px;
+    border: solid 0.1em #ff6984;
+    border-radius: 5px;
+}
+
+.btn-sub{
+    margin-top: 15px;
+    width: 90px;
+    height: 30px;
+    color: #eee;
+    background-color: #414ec2;
+    border:solid 0.15em #ff7373;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-sub:hover{
+    background-color: #858585;
+}
+
+
 h3{
     padding-bottom: 10px;
     margin: 0;
 }
+
+
+
+
 
 footer{
     background-color: #0a1154;
@@ -364,14 +417,23 @@ footer{
     color: white;
 }
 
+footer a{
+    color: #f7f7f7;
+}
+
 .ftr-icon{
     height: 80%;
-    width: 25px;
-    padding-right: 10px;
-    padding-left: 30px;
+    width: 20px;
+    padding-right: 5px;
+    /* margin-left: 30px; */
 }
+
 
 .ftr-ul{
     padding: 0;
     margin:0 ;
+}
+
+.ftr-li{
+    margin-left: 30px;
 }
