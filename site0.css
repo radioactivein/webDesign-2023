@@ -8,6 +8,10 @@ body{
     color: red;
 }
 
+a{
+    text-decoration: none;
+    font-style: none;
+}
 .title{
     font-size: 150px;
     font-weight: 700;
