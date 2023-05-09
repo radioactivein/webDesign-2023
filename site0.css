@@ -16,13 +16,31 @@ a{
     font-size: 150px;
     font-weight: 700;
 }
-p{
-    padding: 15px;
-    background-color: antiquewhite;
-    border-radius: 50px;
-    width:inherit;
+.subtxt{
+    margin-bottom: 30px;
+    padding: 40px;
+    background:linear-gradient(30deg,red,blue);
+    border-radius: 100px;
+    /* width:inherit; */
     display: block;
+    border:solid 5px yellowgreen;
+    transition: transform 1000ms;
 }
+
+.subtxt:hover,:focus-visible{
+    background:linear-gradient(90deg,blue,red);
+    border-color: rgb(0, 84, 84);
+    transition: 1000ms;
+    transform: translateY(-1.75rem);
+    transition:transform 250ms;
+    cursor: pointer;
+}
+
+
+.content-wrapper{
+    padding: 50px 0;
+}
+
 .title-span{
     font-weight: 300;
     text-shadow: ;
@@ -51,4 +69,46 @@ p{
 
 .width100{
     width: 100%;
+}
+
+
+.bt1{
+    width: 120px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: antiquewhite;
+    background:linear-gradient(90deg,red,blue);
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: solid 0.25rem red;
+    /* background-blend-mode:lighten; */
+    transition: 9000ms;
+}
+
+
+.bt1:hover,
+:focus-visible
+        {
+            /* transform: translate(0,80%); */
+            /* border-color: blue;
+            transition: 1000ms; */
+            background:linear-gradient(50deg,blue,red);
+            border-color: aqua;
+            transition: 1000ms;
+        }
+
+.party-time{
+    animation: party 5000ms infinite;
+}
+
+
+
+
+@keyframes party{
+    50%{
+        background-color: blueviolet;
+        rotate: 180deg;
+    }
 }
