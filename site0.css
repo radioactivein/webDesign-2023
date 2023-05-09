@@ -72,8 +72,8 @@ a{
 }
 
 
-.bt1{
-    width: 120px;
+.button{
+    width: 200px;
     margin: 0 auto;
     padding: 20px 50px;
     background-color: antiquewhite;
@@ -84,11 +84,11 @@ a{
     border-radius: 0.5rem;
     border: solid 0.25rem red;
     /* background-blend-mode:lighten; */
-    transition: 9000ms;
+    transition: 5000ms;
 }
 
 
-.bt1:hover,
+.button:hover,
 :focus-visible
         {
             /* transform: translate(0,80%); */
