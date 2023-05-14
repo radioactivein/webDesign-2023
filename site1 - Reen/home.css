@@ -56,10 +56,12 @@ h5{
 }
 
 .header1{
+    position: sticky;
     background-color: rgb(241, 242, 243);
     padding:6px 0px;
 }
 .header2{
+    position: sticky;
     padding: 5px 0;
     background-color: rgb(255, 255, 255);
 }
